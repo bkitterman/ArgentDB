@@ -36,8 +36,8 @@
 *.exe
 *.out
 *.app
-./bin
-./obj
+bin/
+obj/
 
 # debug information files
 *.dwo
