@@ -16,7 +16,7 @@ argent <args>
 ```
 If this says command not found, make sure there is a build on the machine. This is the culprit most likely.
 
-# Attatching Local Bin
+# Attaching Local Bin
 **NOTE**: This make this command work from any directory, not just root.
 
 Run this to make the folder if not already:
@@ -24,7 +24,7 @@ Run this to make the folder if not already:
 mkdir -p ~/.local/bin
 ```
 
-Then, navigate to `~/.bashrc` and enter this line at the very bototm.
+Then, navigate to `~/.bashrc` and enter this line at the very bottom.
 
 ```bash
 export PATH="$HOME/.local/bin:$PATH"`
